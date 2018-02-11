@@ -6,5 +6,5 @@ on join:
     if player is op:
         send "&4&lAttention &b» &cDe-OP yourself for correct color coding in &b&lChat&c!"
 
-on leave:
+on disconnect:
     broadcast "&8[&a-&8] &b%player%"
