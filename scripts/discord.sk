@@ -1,4 +1,4 @@
 command /discord:
     usage: &c/discord
     trigger:
-        send "&cdiscord.me/theenchantednetwork"
+        send "&cFind our discord at: &adiscord.me/theenchantednetwork"
