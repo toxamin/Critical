@@ -165,18 +165,17 @@ command /staff:
 
 every 5 seconds:
 		if {_rank.player} is set:
-			cancel event
-		else
-			set {_rank.player} to default
+	else:
+		set {_rank.player} to default
 
 every 60 seconds:
 		add 1 to {_playtime.player}
 
 command /playtime:
 		trigger:
-			broadcast "%{_playtime.player}%"
+				send "%{_playtime.player}%"
 
-every 2 seconds:
+every 5 seconds:
     loop all players:
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&6&lCritical"
