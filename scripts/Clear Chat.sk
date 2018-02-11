@@ -1,0 +1,11 @@
+command /clearchat:
+    trigger:
+        loop 250 times:
+            broadcast ""
+        broadcast "&aChat has been cleared by &b&l%player%"
+
+command /cc:
+    trigger:
+        loop 250 times:
+            broadcast ""
+        broadcast "&aChat has been cleared by &b&l%player%"
