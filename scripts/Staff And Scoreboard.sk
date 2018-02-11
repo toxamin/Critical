@@ -163,7 +163,7 @@ command /staff:
 
 
 
-every 2 seconds:
+every 5 seconds:
 		if {_rank.player} is set:
 			cancel event
 		else
