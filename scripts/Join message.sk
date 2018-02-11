@@ -1,4 +1,5 @@
 on join:
+    broadcast "&8[&a+&8] &b%player%"
     send "&cWelcome &b&l%player%"
     send "&cThe current gamemode is: &b&lSkyWars"
     send "&cDo &b&l/help &cfor a list of commands and more information"
