@@ -177,5 +177,5 @@ every 5 seconds:
     loop all players:
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&6&lCritical"
-        set score "&6&lRank: &b%{_rank::%player%}%" in sidebar of loop-player to 1
+        set score "&6&lRank: &b%{_rank::%loop-player%}%" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
