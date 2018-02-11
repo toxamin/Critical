@@ -1,3 +1,9 @@
+options:
+  command: playtime
+  permission: playtime.use
+  prefix: &8[&b&lPlaytime&8]
+
+
 variables:
 	{second::%player%} = 0
 	{minute::%player%} = 0
