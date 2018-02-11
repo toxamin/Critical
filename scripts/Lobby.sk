@@ -5,3 +5,6 @@ on break:
 on place:
     if player is in world "Main-Hub-1" or "Main-Hub-3":
         cancel event
+
+if player is in world "Main-Hub-1" or "Main-Hub-3":
+    effect %player% minecraft:speed 2 3
