@@ -22,6 +22,7 @@ Options:
 on join:
 	if player is "{@Owner1}":
 		set {Owner1} to "&a&lONLINE"
+    set {_rank.player} to "Owner"
 	if player is "{@Owner2}":
 		set {Owner2} to "&a&lONLINE"
 	if player is "{@Admin1}":
