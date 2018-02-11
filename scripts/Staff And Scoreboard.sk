@@ -16,7 +16,10 @@ Options:
 	Helper1: TwiSTeDxSkullZz
 	Helper2: iu6
 
-
+on join:
+		wait 5 ticks:
+			if {_rank.player} is not set:
+					set {_rank.player} to defult
 
 
 on join:
@@ -163,11 +166,7 @@ command /staff:
 
 
 
-every 5 seconds:
-		if {_rank.player} is set:
-				cancel event
-		else:
-				set {_rank.player} to default
+
 
 every 60 seconds:
 		add 1 to {_playtime.player}
