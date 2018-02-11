@@ -100,7 +100,7 @@ command /staff:
 		wait 1 tick
 		format slot 9 of player with {@MainGlassColour} named "&a" to be unstealable
 		wait 1 tick
-			format slot 12 of player with skull of {_head1} named "&b&lStaff" with lore "&7IGN &8&l» &b{@Owner1}||&7Rank &8&l» &bOwner||&7Display &8&l» %{Owner1}%" to be unstealable
+		format slot 12 of player with skull of {_head1} named "&b&lStaff" with lore "&7IGN &8&l» &b{@Owner1}||&7Rank &8&l» &bOwner||&7Display &8&l» %{Owner1}%" to be unstealable
 		wait 1 tick
 		format slot 14 of player with skull of {_head2} named "&b&lStaff" with lore "&7IGN &8&l» &b{@Owner2}||&7Rank &8&l» &bOwner||&7Display &8&l» %{Owner2}%" to be unstealable
 		wait 1 tick
