@@ -1,3 +1,7 @@
 on break:
     if player is in world "Main-Hub-1" or "Main-Hub-3":
         cancel event
+
+on place:
+    if player is in world "Main-Hub-1" or "Main-Hub-3":
+        cancel event
