@@ -5,6 +5,7 @@ on break:
 on place:
     if player is in world "Main-Hub-1" or "Main-Hub-3":
         cancel event
-every 2 seconds:
+
+on any move:
     if player is in world "Main-Hub-1" or "Main-Hub-3":
-        effect %player% minecraft:speed 2 3
+        make console execute "/effect %player% minecraft:speed 4 3 true"
