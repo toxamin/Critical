@@ -5,6 +5,7 @@ on join:
     send "&cDo &b&l/help &cfor a list of commands and more information"
     if player is op:
         send "&4&lAttention &b» &cDe-OP yourself for correct color coding in &b&lChat&c!"
+        make console execute "/effect %player% clear"
 
 on disconnect:
     broadcast "&8[&a-&8] &b%player%"
