@@ -3,13 +3,13 @@ Options:
 	MainGlassColour: white glass
 	SecondGlassColour: purple glass
 
-	#Lie - Change these to the names of the staff members!
+	#Lie - Change these to the names of the staff members, it will automatically get the heads of them and put them into the staff emnu!
 
 	Owner1: Rollermachine
 	Owner2: ItzBz
 	Admin1: N/A
 	Admin2: N/A
-	Mod1: TO
+	Mod1: N/A
 	Mod2: Haroh
 	Dev1: Q1V
 	Dev2: Obliveater95
