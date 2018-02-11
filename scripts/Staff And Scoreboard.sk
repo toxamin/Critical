@@ -165,11 +165,9 @@ command /staff:
 
 every 5 seconds:
 		if {_rank.player} is set:
-			cancel event
+				cancel event
 		else:
-			set {_rank.player} to default
-	else:
-		set {_rank.player} to default
+				set {_rank.player} to default
 
 every 60 seconds:
 		add 1 to {_playtime.player}
