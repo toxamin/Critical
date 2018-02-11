@@ -1,0 +1,7 @@
+on death of player:
+    if player is in world "SkyWarsArenaWorld":
+        broadcast "&e&l%player%&b Died" in world "SkyWarsArenaWorld"
+
+on death of player:
+    if player is in world "world":
+        broadcast "&e&l%player%&b Died" in world "world"
