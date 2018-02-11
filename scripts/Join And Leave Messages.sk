@@ -7,4 +7,5 @@ on join:
         send "&4&lAttention &b» &cDe-OP yourself for correct color coding in &b&lChat&c!"
 
 on disconnect:
+    cancel event
     broadcast "&8[&a-&8] &b%player%"
