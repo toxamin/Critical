@@ -166,7 +166,7 @@ command /staff:
 every 5 seconds:
 		if {_rank.player} is set:
 			cancel event
-		else
+		else:
 			set {_rank.player} to default
 
 every 60 seconds:
@@ -182,3 +182,4 @@ every 2 seconds:
         set name of sidebar of loop-player to "&6&lCritical"
         set score "&6&lRank: &b%{_rank.player}%" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
+				set score "&b&lPlaytime: &5&l%{playtime.player}%"
