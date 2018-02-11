@@ -1,4 +1,4 @@
 on chat:
-    if message is "fuck"
+    if message is "fuck":
         cancel event
         send "&cPlease refrain from using vulgar language"
