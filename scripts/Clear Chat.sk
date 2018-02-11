@@ -1,6 +1,7 @@
 command /clearchat:
     permission: chat.clearchat
     permission message: You don't have permission
+    usage: &c/clearchat
     trigger:
         loop 250 times:
             broadcast ""
@@ -9,6 +10,7 @@ command /clearchat:
 command /cc:
     permission: chat.clearchat
     permission message: You don't have permission
+    usage: &c/cc
     trigger:
         loop 250 times:
             broadcast ""
