@@ -168,8 +168,11 @@ command /staff:
 
 
 
-every 60 seconds:
-		add 1 to {_playtime.player}
+every 2 seconds:
+		add 1 to {_seconds.player}
+		if {_seconds.player} is ecual to 30:
+				add 1 to {_min.player}
+				set {_seconds.player} to 0
 
 command /playtime:
 		trigger:
