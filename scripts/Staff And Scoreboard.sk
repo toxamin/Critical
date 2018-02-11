@@ -167,7 +167,7 @@ every 5 seconds:
 		if {_rank.player} is set:
 			cancel event
 		else
-			set {_rank.player} to defualt
+			set {_rank.player} to default
 
 
 every 2 seconds:
