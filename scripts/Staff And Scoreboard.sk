@@ -169,6 +169,12 @@ every 5 seconds:
 		else
 			set {_rank.player} to default
 
+every 60 seconds:
+		add 1 to {_playtime.player}
+
+command /playtime:
+		trigger:
+			broadcast "%{_playtime.player}%"
 
 every 2 seconds:
     loop all players:
