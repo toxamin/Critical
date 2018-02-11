@@ -1,3 +1,0 @@
-every 3 minutes:
-    loop all players:
-        send "&7There is &c%number of all players%&7 online player(s)!" to loop-player
