@@ -16,6 +16,9 @@ Options:
 	Helper1: TwiSTeDxSkullZz
 	Helper2: iu6
 
+#Lobbys
+	Skywarslobby1: Main-Hub-1
+
 on join:
 		wait 5 ticks
 		if {_rank.player} is not set:
@@ -166,7 +169,10 @@ command /staff:
 
 
 
-
+every second:
+	if player is in world @Skywarslobby1:
+		if player is under y=0:
+			teleport %player% to 1047 117 -595
 
 
 
