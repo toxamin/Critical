@@ -162,7 +162,8 @@ command /staff:
 		format slot 44 of player with {@MainGlassColour} named "&a" to be unstealable
 
 
-		on damage:
+on damage:
+		if victim is in world "Main-Hub-1":
 				if damage cause is void:
 						cancel event
 						make console execute "/tp %victim% 1047 117 -596"
