@@ -162,9 +162,10 @@ command /staff:
 		format slot 44 of player with {@MainGlassColour} named "&a" to be unstealable
 
 
-every second in "Main-Hub-1":
-	if players location under y=0:
-		teleport %player% to 1047 117 -595
+		on damage:
+				if damage cause is void:
+						cancel event
+						make console execute "/tp %victim% 1047 117 -596"
 
 
 
