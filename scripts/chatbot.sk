@@ -1,0 +1,43 @@
+options:
+  version: 0.1
+  permission: configure.bot
+
+
+
+#This is a chatbot that can do math and answer some questions
+
+
+
+command ![<number>] [<text>] [<number>]:
+  usage: !
+  trigger:
+    if arg 2 is "+":
+      set {_a} to arg 1
+      set {_b} to arg 3
+      wait 1 tick
+      add {_b} to {_a}
+      send "&3&l[&9Critical&3&l] &5You answer is &2&l{_a}" to %player%
+      wait 1 tick
+      set {_a} and {_b} to 0
+      stop
+    if arg 2 is "-"
+      set {_a} to arg 1
+      set {_b} to arg 3
+      wait 1 tick
+      remove {_b} from {_a}
+      send "&3&l[&9Critical&3&l] &5You answer is &2&l{_a}" to %player%
+      stop
+    if arg 2 is "x" or "*":
+      set {_a} to arg 1
+      set {_b} to arg 3
+      wait 1 tick
+      multiply {_a} by {_b}
+      send "&3&l[&9Critical&3&l] &5You answer is &2&l{_a}" to %player%
+      stop
+    if arg 2 is "/":
+      set {_a} to arg 1
+      set {_b} to arg 3
+      wait 1 tick
+      divide {_a} by {_b}
+      send "&3&l[&9Critical&3&l] &5You answer is &2&l{_a}" to %player%
+      stop
