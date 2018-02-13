@@ -16,11 +16,11 @@ on any movement:
 on command:
     {freeze.%player%.value}
     cancel the event
-    message "%{freeze.errorcolor}%You are frozen and cannot execute commands"
+    message "&cYou are frozen and cannot execute commands"
 
 command /freeze [<player>]:
     trigger:
-        set {_prefix} to "%{freeze.maincolor}%&lFreeze%{freeze.seccolor}%&l> %{freeze.maincolor}%"
+        set {_prefix} to "&b&lFreeze &a&l» &6"
         arg 1 is not set:
             message "&cWrong syntax! Usage: /freeze <player>"
             stop
