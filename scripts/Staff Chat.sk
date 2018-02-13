@@ -5,4 +5,4 @@ command /staffchat [<text>]:
     trigger:
         loop all players:
             if loop-player has permission "staff.sc":
-                
+                send "&b&lStaff&f&lChat &r&e%arg 1%" to loop-player
