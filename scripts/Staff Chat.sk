@@ -2,3 +2,7 @@ command /staffchat [<text>]:
     aliases: /sc
     permission: staff.sc
     permission message: &cYou don't have permission
+    trigger:
+        loop all players:
+            if loop-player has permission "staff.sc":
+                
