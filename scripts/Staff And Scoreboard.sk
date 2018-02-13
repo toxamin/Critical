@@ -180,6 +180,6 @@ every 2 seconds:
         set score "&6&lRank: &b%{_rank::%loop-player%}%" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
 				wait 1 second
-				set name of sidebar of loop-player to "&3&lCritical"
+				set name of sidebar of loop-player to "&3&l[&9Critical&3&l]"
 				set score "&6&lRank: &b%{_rank::%loop-player%}%" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
