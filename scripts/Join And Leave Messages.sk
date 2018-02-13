@@ -1,11 +1,31 @@
 on join:
     broadcast "&8[&a+&8] &b%player%"
-    send "&cWelcome &b&l%player%"
-    send "&cThe current gamemode is: &b&lSkyWars"
-    send "&cDo &b&l/help &cfor a list of commands and more information"
+    send "&3&l[&9Critical&3&l] &cWelcome back &b&l%player%"
+    send "&3&l[&9Critical&3&l] &cThe current gamemode is: &b&lSkyWars"
+    send "&3&l[&9Critical&3&l] &cDo &b&l/help &cfor a list of commands and more information"
     make console execute "/effect %player% clear"
     if player is op:
         send "&4&lAttention &b» &cDe-OP yourself for correct color coding in &b&lChat&c!"
-
+    if {_firstjoin::%player%} is not set:
+      add 1 to {_playercounter}
 on disconnect:
     broadcast "&8[&a-&8] &b%player%"
+
+on first join:
+  add 1 to {_playercounter}
+  broadcast "&3&l[&9Critical&3&l] &3&la new player has joined for the first time!"
+  broadcast ""&3&l[&9Critical&3&l] &bYou are the #&3&l%{_playercounter}% &bPlayer! to join this server"
+  add 1 to {_firstjoin::%player%}
+
+command /adminplayercounter [<number>]:
+  permission: admin.playercounter
+  nopermission: "&3&l[&9Critical&3&l] &bYou Dont have permission&4&l!"
+  trigger:
+    add arg 1 to {_playercounter}
+    stop
+
+command !resetplayercounter:
+  permission: admin.playercounter
+  nopermission: "&3&l[&9Critical&3&l] &bYou Dont have permission&4&l!"
+  trigger:
+    set {_playercounter} to "00000"
