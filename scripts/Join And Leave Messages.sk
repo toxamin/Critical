@@ -4,6 +4,7 @@ on join:
     send "&3&l[&9Critical&3&l] &cThe current gamemode is: &b&lSkyWars"
     send "&3&l[&9Critical&3&l] &cDo &b&l/help &cfor a list of commands and more information"
     make console execute "/effect %player% clear"
+    make console execute "/v disable %player%"
     if player is op:
         send "&4&lAttention &b» &cDe-OP yourself for correct color coding in &b&lChat&c!"
     if {_firstjoin::%player%} is not set:

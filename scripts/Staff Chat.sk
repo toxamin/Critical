@@ -1,0 +1,11 @@
+command /staffchat [<text>]:
+    aliases: /sc
+    permission: staff.sc
+    permission message: &cYou don't have permission
+    trigger:
+        if arg 1 is not set:
+            message "&cYou must enter a message"
+        if arg 1 is set:
+            loop all players:
+                if loop-player has permission "staff.sc":
+                    send "&b&lStaff&f&lChat &r&6» &a%player% &e%arg 1%" to loop-player
