@@ -50,5 +50,5 @@ command /freeze [<player>]:
         set {_templastused} to now
         subtract 1 hour from {_templastused}
         set {freeze.%arg 1%.lastused} to {_templastused}
-        message "%{_prefix}%You unfroze %{freeze.seccolor}%%arg 1%"
+        message "%{_prefix}%&a%arg 1% &bHas been unfrozen"
         message "%{_prefix}%You have been unfrozen by %{freeze.seccolor}%%player%" to arg 1
