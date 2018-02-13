@@ -1,0 +1,5 @@
+variables:
+    {freeze.maincolor} = "&3"
+    {freeze.seccolor} = "&b"
+    {freeze.errorcolor} = "&c"
+    {freeze.%player%.value} = false
