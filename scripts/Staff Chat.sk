@@ -1,0 +1,4 @@
+command /staffchat [<text>]:
+    aliases: /sc
+    permission: staff.sc
+    permission message: &cYou don't have permission
