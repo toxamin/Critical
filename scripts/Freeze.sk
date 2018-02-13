@@ -41,7 +41,7 @@ command /freeze [<player>]:
             subtract 1 hour from {_templastused}
             set {freeze.%arg 1%.lastused} to {_templastused}
             message "%{_prefix}%&a%arg 1% &bhas been frozen"
-            message "%{_prefix}%You have been frozen by %{freeze.seccolor}%%player%%nl%&cYou have 5 minutes to download Discord%nl%&cAnd join the screenshare Waiting Room%nl%&cAt discord.me/theenchantednetwork" to arg 1
+            message "%{_prefix}%You have been frozen by %{freeze.seccolor}%%player%%nl%&aYou have 5 minutes to download Discord%nl%&aAnd join the screenshare Waiting Room%nl%&aAt discord.me/theenchantednetwork" to arg 1
             stop
         player does not have permission "freeze.unfreeze":
             message "&cYou don't have permission to do that"
