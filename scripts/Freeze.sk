@@ -10,13 +10,13 @@ on any movement:
     set {_checktime} to now
     subtract 2 seconds from {_checktime}
     {freeze.%player%.lastused} is less than {_checktime}
-    message "&cYou are frozen and cannot move"
+    message "&cYou cannot move whilst frozen"
     set {freeze.%player%.lastused} to now
 
 on command:
     {freeze.%player%.value}
     cancel the event
-    message "&cYou are frozen and cannot execute commands"
+    message "&cYou cannot execute commands whilst frozen"
 
 command /freeze [<player>]:
     trigger:
