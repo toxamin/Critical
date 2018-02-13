@@ -1,4 +1,4 @@
 on connect:
     player doesn't have permission "staff"
-    number of players is larger than 0
+    number of players is larger than 8
     kick the player due to "&aWe are sorry, but the last slot is reserved for &b&lStaff members"
