@@ -12,3 +12,8 @@ variables:
         {freeze.%player%.lastused} is less than {_checktime}
         message "&cYou are frozen and cannot move"
         set {freeze.%player%.lastused} to now
+
+        on command:
+            {freeze.%player%.value}
+            cancel the event
+            message "%{freeze.errorcolor}%You are frozen and cannot execute commands"
