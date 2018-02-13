@@ -8,6 +8,7 @@ on join:
         send "&4&lAttention &b» &cDe-OP yourself for correct color coding in &b&lChat&c!"
     if {_firstjoin::%player%} is not set:
       add 1 to {_playercounter}
+      add 1 to {_firstjoin::%player%}
 on disconnect:
     broadcast "&8[&a-&8] &b%player%"
 
