@@ -3,3 +3,12 @@ variables:
     {freeze.seccolor} = "&b"
     {freeze.errorcolor} = "&c"
     {freeze.%player%.value} = false
+
+    on any movement:
+        {freeze.%player%.value}
+        cancel the event
+        set {_checktime} to now
+        subtract 2 seconds from {_checktime}
+        {freeze.%player%.lastused} is less than {_checktime}
+        message "&cYou are frozen and cannot move"
+        set {freeze.%player%.lastused} to now
