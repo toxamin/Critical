@@ -16,4 +16,4 @@ variables:
         on command:
             {freeze.%player%.value}
             cancel the event
-            message "%{freeze.errorcolor}%You are frozen and cannot execute commands"
+            message "&cYou are frozen and cannot execute commands"
