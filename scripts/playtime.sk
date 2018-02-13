@@ -1,7 +1,7 @@
 options:
   command: playtime
   permission: playtime.use
-  prefix: &8[&b&lPlaytime&8]
+  prefix: &3&l[&9Critical&3&l]
 
 
 variables:
