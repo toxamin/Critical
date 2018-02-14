@@ -16,4 +16,9 @@ on damage of a player:
         send "&cYou cannot attack other players in the lobby" to attacker
 
 on drop:
-    cancel event
+    if player is in world "Main-Hub-1" or "Main-Hub-3":
+        cancel event
+
+on pick up:
+    if player is in world "Main-Hub-1" or "Main-Hub-3":
+        cancel event
