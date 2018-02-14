@@ -7,13 +7,13 @@ on command "/stop":
     broadcast "%nl%&aThe server will stop in &c10 &aseconds, we apologise for any lag whilst we save the server%nl%&4"
     make console execute "/save-all"
     wait 5 seconds
-    broadcast "%nl%&aThe server will stop in &c5 &aseconds%nl%cJoin back at enchanted.minehut.gg"
+    broadcast "%nl%&aThe server will stop in &c5 &aseconds%nl%&cJoin back at enchanted.minehut.gg"
     wait 1 second
-    broadcast "%nl%&aThe server will stop in &c4 &aseconds%nl%cJoin back at enchanted.minehut.gg"
+    broadcast "%nl%&aThe server will stop in &c4 &aseconds%nl%&cJoin back at enchanted.minehut.gg"
     wait 1 second
-    broadcast "%nl%&aThe server will stop in &c3 &aseconds%nl%cJoin back at enchanted.minehut.gg"
+    broadcast "%nl%&aThe server will stop in &c3 &aseconds%nl%&cJoin back at enchanted.minehut.gg"
     wait 1 second
-    broadcast "%nl%&aThe server will stop in &c2 &aseconds%nl%cJoin back at enchanted.minehut.gg"
+    broadcast "%nl%&aThe server will stop in &c2 &aseconds%nl%&cJoin back at enchanted.minehut.gg"
     wait 1 second
     broadcast "%nl%&aThe server will stop in &c1 &asecond%nl%&cJoin back at enchanted.minehut.gg"
     wait 1 second
