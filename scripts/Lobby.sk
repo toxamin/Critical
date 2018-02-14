@@ -24,8 +24,9 @@ on pick up:
         cancel event
 
 on join:
-  if %player% isnt in world "Main-Hub-1":
+  if %player% is not in world "Main-Hub-1":
     teleport %player% to world "Main-Hub-1"
-  clear %player% inventory
+  make console execute "/ci %player%"
+  make console execute "/ci %player%"
   make console execute "/menu grab %player% gamemodecompass"
   stop
