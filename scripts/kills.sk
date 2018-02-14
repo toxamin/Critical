@@ -1,6 +1,6 @@
 options:
   permission: admin.kills
-  prefix: &3&l[&9Critical&3&l] &7You got a &3point
+  prefix: &7You got a &3point
 
 #Add the skywars maps name after the worlds! Put a # before them if they're not set.
 
