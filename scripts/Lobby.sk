@@ -15,10 +15,11 @@ on damage of a player:
         cancel event
         send "&cYou cannot attack other players in the lobby" to attacker
 
-on drop:
-    if player is in world "Main-Hub-1" or "Main-Hub-3":
-        cancel event
 
-on pick up:
-    if player is in world "Main-Hub-1" or "Main-Hub-3":
-        cancel event
+
+on join:
+  if %player% isnt in world "Main-Hub-1":
+    teleport %player% to world "Main-Hub-1"
+  clear %player% inventory
+  make console execute "/menu grab %player% gamemodecompass"
+  stop
