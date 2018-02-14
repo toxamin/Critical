@@ -14,4 +14,4 @@ command /cc:
     trigger:
         loop 250 times:
             broadcast ""
-        broadcast "&3&l[&9Critical&3&l] &aChat has been cleared by &b&l%player%"
+        broadcast "&aChat has been cleared by &b&l%player%"
