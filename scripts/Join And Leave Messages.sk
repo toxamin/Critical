@@ -7,16 +7,15 @@ on join:
     if player is op:
         send "&4&lAttention &b» &cDe-OP yourself for correct color coding in &b&lChat&c!"
     if {_firstjoin::%player%} is not set:
-      add 1 to {_playercounter}
-      add 1 to {_firstjoin::%player%}
+        add 1 to {_playercounter}
+        add 1 to {_firstjoin::%player%}
 on disconnect:
     broadcast "&8[&a-&8] &b%player%"
 
 on first join:
-  add 1 to {_playercounter}
-  broadcast "&3&l[&9Critical&3&l] &3&la new player has joined for the first time!"
-  broadcast "&3&l[&9Critical&3&l] &bYou are the #&3&l%{_playercounter}% &bPlayer! to join this server"
-  add 1 to {_firstjoin::%player%}
+    add 1 to {_playercounter}
+    broadcast "&8[&aNEW&8] &b%player% #%{_playercounter}%"
+    add 1 to {_firstjoin::%player%}
 
 command /adminplayercounter [<number>]:
   permission: admin.playercounter
