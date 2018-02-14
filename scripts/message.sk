@@ -1,0 +1,2 @@
+command /msg:
+    aliases: /tell /m
