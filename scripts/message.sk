@@ -1,8 +1,9 @@
-command /msg [<player>] :
+command /msg [<player>] <text>:
     aliases: /tell /m
     trigger:
         arg 1 is not set:
             message "&cYou must enter a user to send the message to."
         arg 2 is not set:
             message "&cYou must enter a message to send."
-        send "%arg 2%" to %arg 1%
+        loop all players:
+            broadcast "&e[&b%player% &e> &bMe] %arg2%" to %arg 1%
