@@ -1,0 +1,4 @@
+on command "/stop":
+    cancel event
+    make console execute "/save-all"
+    broadcast "%nl%&aThe server will stop in &c30 &aseconds"
