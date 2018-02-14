@@ -16,4 +16,5 @@ on command "/stop":
     broadcast "%nl%&aThe server will stop in &c2 &aseconds%nl%&cJoin back at enchanted.minehut.gg"
     wait 1 second
     broadcast "%nl%&aThe server will stop in &c1 &asecond%nl%&cJoin back at enchanted.minehut.gg"
-    wait 1 second
+    wait 2 seconds
+    make console execute "/kickall &aThe server has stopped, &cjoin back at enchanted.minehut.gg"
