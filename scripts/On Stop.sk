@@ -6,3 +6,14 @@ on command "/stop":
     wait 10 seconds
     broadcast "%nl%&aThe server will stop in &c10 &aseconds, we apologise for any lag whilst we save the server%nl%&4"
     make console execute "/save-all"
+    wait 5 seconds
+    broadcast "%nl%&aThe server will stop in &c5 &aseconds%nl%&4"
+    wait 1 second
+    broadcast "%nl%&aThe server will stop in &c4 &aseconds%nl%&4"
+    wait 1 second
+    broadcast "%nl%&aThe server will stop in &c3 &aseconds%nl%&4"
+    wait 1 second
+    broadcast "%nl%&aThe server will stop in &c2 &aseconds%nl%&4"
+    wait 1 second
+    broadcast "%nl%&aThe server will stop in &c1 &asecond%nl%&4"
+    wait 1 second
