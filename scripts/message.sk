@@ -6,4 +6,4 @@ command /msg [<player>] <text>:
         arg 2 is not set:
             message "&cYou must enter a message to send."
         loop all players:
-            broadcast "&e[&b%player% &e> &bMe] %arg2%" to %arg 1%
+            broadcast "&e[&b%player% &e> &bMe&e] &b%arg 2%"
