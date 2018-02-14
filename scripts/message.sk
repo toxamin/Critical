@@ -1,7 +1,8 @@
-command /msg:
+command /msg [<player>] :
     aliases: /tell /m
     trigger:
-        if arg 1 is not set:
+        arg 1 is not set:
             message "&cYou must enter a user to send the message to."
-        if arg 2 is not set:
+        arg 2 is not set:
             message "&cYou must enter a message to send."
+        send "%arg 2%" to %arg 1%
