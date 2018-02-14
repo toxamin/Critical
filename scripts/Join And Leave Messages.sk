@@ -26,6 +26,6 @@ command /adminplayercounter [<number>]:
 
 command !resetplayercounter:
   permission: admin.playercounter
-  nopermission: "&3&l[&9Critical&3&l] &bYou Dont have permission&4&l!"
+  permission message: &cYou don't have permission
   trigger:
     set {_playercounter} to "00000"
