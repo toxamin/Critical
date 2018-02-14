@@ -1,8 +1,8 @@
 on join:
     broadcast "&8[&a+&8] &b%player%"
-    send "&3&l[&9Critical&3&l] &cWelcome back &b&l%player%"
-    send "&3&l[&9Critical&3&l] &cThe current gamemode is: &b&lSkyWars"
-    send "&3&l[&9Critical&3&l] &cDo &b&l/help &cfor a list of commands and more information"
+    send "&cWelcome back &b&l%player%"
+    send "&cThe current gamemode is: &b&lSkyWars"
+    send "&cDo &b&l/help &cfor a list of commands and more information"
     make console execute "/effect %player% clear"
     if player is op:
         send "&4&lAttention &b» &cDe-OP yourself for correct color coding in &b&lChat&c!"
@@ -21,10 +21,12 @@ command /adminplayercounter [<number>]:
   permission: admin.playercounter
   permission message: &cYou don't have permission
   trigger:
-    add arg 1 to {_playercounter}
-    stop
+    if arg 1 is not set:
+      send "&cSupply an amount"
+      add arg 1 to {_playercounter}
+      stop
 
-command !resetplayercounter:
+command /resetplayercounter:
   permission: admin.playercounter
   permission message: &cYou don't have permission
   trigger:
