@@ -26,3 +26,5 @@ command /stop:
 command /forcestop:
     permission: staff.stop
     no permission: &cYou don't have permission
+    trigger:
+        make console execute "/kickall "
