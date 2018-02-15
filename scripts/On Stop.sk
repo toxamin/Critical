@@ -1,5 +1,6 @@
 command /stop:
     permission: staff.stop
+    permission message: &cYou don't have permission
     trigger:
         broadcast "%nl%&aThe server will stop in &c30 &aseconds%nl%&4"
         wait 10 seconds
