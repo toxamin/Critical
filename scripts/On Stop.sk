@@ -1,22 +1,23 @@
-on command "/stop":
-    cancel event
-    broadcast "%nl%&aThe server will stop in &c30 &aseconds%nl%&4"
-    wait 10 seconds
-    broadcast "%nl%&aThe server will stop in &c20 &aseconds%nl%&4"
-    wait 10 seconds
-    broadcast "%nl%&aThe server will stop in &c10 &aseconds, we apologise for any lag whilst we save the server%nl%&4"
-    make console execute "/save-all"
-    wait 5 seconds
-    broadcast "%nl%&aThe server will stop in &c5 &aseconds%nl%Join back at &cenchanted.minehut.gg"
-    wait 1 second
-    broadcast "%nl%&aThe server will stop in &c4 &aseconds%nl%Join back at &cenchanted.minehut.gg"
-    wait 1 second
-    broadcast "%nl%&aThe server will stop in &c3 &aseconds%nl%Join back at &cenchanted.minehut.gg"
-    wait 1 second
-    broadcast "%nl%&aThe server will stop in &c2 &aseconds%nl%Join back at &cenchanted.minehut.gg"
-    wait 1 second
-    broadcast "%nl%&aThe server will stop in &c1 &asecond%nl%Join back at &cenchanted.minehut.gg"
-    wait 2 seconds
-    make console execute "/kickall &aThe server has stopped, join back at &cenchanted.minehut.gg"
-    wait 1 second
-    make console execute "/stop"
+command /stop:
+    permission: staff.stop
+    trigger:
+        broadcast "%nl%&aThe server will stop in &c30 &aseconds%nl%&4"
+        wait 10 seconds
+        broadcast "%nl%&aThe server will stop in &c20 &aseconds%nl%&4"
+        wait 10 seconds
+        broadcast "%nl%&aThe server will stop in &c10 &aseconds, we apologise for any lag whilst we save the server%nl%&4"
+        make console execute "/save-all"
+        wait 5 seconds
+        broadcast "%nl%&aThe server will stop in &c5 &aseconds%nl%Join back at &cenchanted.minehut.gg"
+        wait 1 second
+        broadcast "%nl%&aThe server will stop in &c4 &aseconds%nl%Join back at &cenchanted.minehut.gg"
+        wait 1 second
+        broadcast "%nl%&aThe server will stop in &c3 &aseconds%nl%Join back at &cenchanted.minehut.gg"
+        wait 1 second
+        broadcast "%nl%&aThe server will stop in &c2 &aseconds%nl%Join back at &cenchanted.minehut.gg"
+        wait 1 second
+        broadcast "%nl%&aThe server will stop in &c1 &asecond%nl%Join back at &cenchanted.minehut.gg"
+        wait 2 seconds
+        make console execute "/kickall &aThe server has stopped, join back at &cenchanted.minehut.gg"
+        wait 1 second
+        make console execute "/stop"
