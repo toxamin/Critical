@@ -22,3 +22,6 @@ command /stop:
         make console execute "/kickall &aThe server has stopped, join back at &cenchanted.minehut.gg"
         wait 1 second
         make console execute "/stop"
+
+command /forcestop:
+    permission: staff.stop
