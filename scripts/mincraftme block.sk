@@ -1,0 +1,3 @@
+command /minecraft:
+    trigger:
+        message "&cNo No No"
