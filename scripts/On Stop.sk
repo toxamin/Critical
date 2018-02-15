@@ -47,4 +47,4 @@ command /forcestop:
         broadcast "&4Thhe server will forcibly shut. &aJoin &6&lhttps://discord.gg/VFeFTfz &r&afor more information"
         broadcast "&4Thhe server will forcibly shut. &aJoin &6&lhttps://discord.gg/VFeFTfz &r&afor more information"
         broadcast "&4Thhe server will forcibly shut. &aJoin &6&lhttps://discord.gg/VFeFTfz &r&afor more information"
-        make console execute "/kickall &4&lATTENTION &r&aThe server has forcibly stopped"
+        make console execute "/kickall &4&lATTENTION &r&aThe server has forcibly stopped, join our discord for more information."
