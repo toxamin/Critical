@@ -25,7 +25,7 @@ command /stop:
 
 command /forcestop:
     permission: staff.stop
-    no permission: &cYou don't have permission
+    permission message: &cYou don't have permission
     trigger:
         broadcast "&4Thhe server will forcibly shut. &aJoin &6&lhttps://discord.gg/VFeFTfz &r&afor more information"
         broadcast "&4Thhe server will forcibly shut. &aJoin &6&lhttps://discord.gg/VFeFTfz &r&afor more information"
