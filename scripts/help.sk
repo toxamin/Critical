@@ -2,4 +2,4 @@ command /help:
     trigger:
         loop all players:
             send "&c&b&l/sw join &4» &cJoin the SkyWars queue.%newline%&b&l/sw top &4» &cView the top to players.%newline%&c&b&l/sw kitGUI &4» &cList usable SkyWars kits.%newline%&c&b&l/discord &4» &cGenerates an invite link to our discord."
-            loop player has permission "staff"
+            loop-player has permission "staff"
