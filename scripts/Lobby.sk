@@ -6,9 +6,9 @@ on place:
     if player is in world "Main-Hub-1" or "Main-Hub-3":
         cancel event
 
-on any move:
-    if player is in world "Main-Hub-1" or "Main-Hub-3":
-        make console execute "/effect %player% minecraft:speed 4 3 true"
+#on any move:
+#    if player is in world "Main-Hub-1" or "Main-Hub-3":
+#        make console execute "/effect %player% minecraft:speed 4 3 true"
 
 on damage of a player:
     if victim is in world "Main-Hub-1" or "Main-Hub-3":
