@@ -1,3 +1,5 @@
 command /report [<player>] <text>:
     trigger:
-        
+        loop all players:
+            if loop-player has permission "staff"
+            
