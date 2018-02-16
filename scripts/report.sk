@@ -1,5 +1,7 @@
 command /report [<player>] <text>:
     trigger:
+        arg 1 is not set
+            message "&aYou must specify a player to report"
         loop all players:
             loop-player has permission "staff"
             send "&6&lREPORT: &c%player% &2Reported &c%arg 1% &6&l» &d%arg 2%" to loop-player
