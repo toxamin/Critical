@@ -1,10 +1,10 @@
 command /report [<player>] <text>:
     trigger:
         if arg 1 is not set:
-          message "&aYou must specify a reason"
+            message "&aYou must specify a reason"
         if arg 1 and arg 2 is set:
           loop all players:
-            %loop-player% has permission "staff"
+            loop-player has permission "staff"
             send "&6&lREPORT: &c%player% &2Reported &c%arg 1% &6&l» &d%arg 2%" to %loop-player%
             loop all players:
             loop-player has permission "staff"
