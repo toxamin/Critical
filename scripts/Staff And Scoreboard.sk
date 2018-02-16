@@ -160,7 +160,7 @@ command /staff:
 on join:
 	wait 5 ticks
 	if {_rank.player} is not set:
-		set {_rank.player} to "default"
+		set {_rank.player} to "Member"
 
 on damage:
 		if victim is in world "Main-Hub-1":
