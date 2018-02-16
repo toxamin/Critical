@@ -3,7 +3,7 @@ command /report [<player>] <text>:
         arg 1 is not set
         message "&aYou must specify a reason"
         cancel event
-            loop all players:
+        loop all players:
             loop-player has permission "staff"
             send "&6&lREPORT: &c%player% &2Reported &c%arg 1% &6&l» &d%arg 2%" to loop-player
             send "&aYou have reported &e%arg 1%"
