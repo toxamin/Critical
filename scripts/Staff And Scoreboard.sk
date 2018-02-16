@@ -21,34 +21,34 @@ Options:
 on join:
 	if player is "{@Owner1}":
 		set {Owner1} to "&a&lONLINE"
-		set {_rank.player} to "Owner"
+		set {_rank::%player%} to "Owner"
 	if player is "{@Owner2}":
 		set {Owner2} to "&a&lONLINE"
-		set {_rank.player} to "Owner"
+		set {_rank::%player%} to "Owner"
 	if player is "{@Admin1}":
 		set {Admin1} to "&a&lONLINE"
-		set {_rank.player} to "Admin"
+		set {_rank::%player%} to "Admin"
 	if player is "{@Admin2}":
 		set {Admin2} to "&a&lONLINE"
-		set {_rank.player} to "Admin"
+		set {_rank::%player%} to "Admin"
 	if player is "{@Mod1}":
 		set {Mod1} to "&a&lONLINE"
-		set {_rank.player} to "Moderator"
+		set {_rank::%player%} to "Moderator"
 	if player is "{@Mod2}":
 		set {Mod2} to "&a&lONLINE"
-		set {_rank.player} to "Moderator"
+		set {_rank::%player%} to "Moderator"
 	if player is "{@Dev1}":
 		set {Dev1} to "&a&lONLINE"
-		set {_rank.player} to "Developer"
+		set {_rank::%player%} to "Developer"
 	if player is "{@Dev2}":
 		set {Dev2} to "&a&lONLINE"
-		set {_rank.player} to "Developer"
+		set {_rank::%player%} to "Developer"
 	if player is "{@Helper1}":
 		set {Helper1} to "&a&lONLINE"
-		set {_rank.player} to "Helper"
+		set {_rank::%player%} to "Helper"
 	if player is "{@Helper2}":
 		set {Helper2} to "&a&lONLINE"
-		set {_rank.player} to "Helper"
+		set {_rank::%player%} to "Helper"
 on disconnect:
 	if player is "{@Owner1}":
 		set {Owner1} to "&c&lOFFLINE"
