@@ -3,15 +3,12 @@ command /report [<player>] <text>:
         if arg 1 is not set:
           message "&aYou must specify a reason"
         if arg 1 and arg 2 is set:
-<<<<<<< HEAD
           loop all players:
             %loop-player% has permission "staff"
             send "&6&lREPORT: &c%player% &2Reported &c%arg 1% &6&l» &d%arg 2%" to %loop-player%
-=======
             loop all players:
             loop-player has permission "staff"
             send "&6&lREPORT: &c%player% &2Reported &c%arg 1% &6&l» &d%arg 2%" to loop-player
->>>>>>> 594fd4af16e1994503c99f50847de5122c1fec09
             send "&aYou have reported &e%arg 1%"
         else:
             stop
