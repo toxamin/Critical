@@ -2,4 +2,5 @@ command /report [<player>] <text>:
     trigger:
         loop all players:
             loop-player has permission "staff"
-            send "&aREPORT: &c%player% &eReported &c%arg 1% &6&l» &5%arg 2%" to loop-player
+            send "&6&lREPORT: &c%player% &2Reported &c%arg 1% &6&l» &d%arg 2%" to loop-player
+            send "&aYou have reported &e%arg 1%"
