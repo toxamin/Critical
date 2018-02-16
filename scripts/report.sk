@@ -1,0 +1,2 @@
+command /report [<player>] <text>:
+    trigger:
