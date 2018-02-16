@@ -176,6 +176,11 @@ on damage:
 every 2 seconds:
     loop all players:
         wipe loop-player's sidebar
+<<<<<<< HEAD
         set name of sidebar of loop-player to "&3&lCritical"
         set score "&6&lRank: &b%{_rank::%player%}%" in sidebar of loop-player to 1
+=======
+        set name of sidebar of loop-player to "&b&lCritical"
+        set score "&6&lRank: &b%{_rank::%loop-player%}%" in sidebar of loop-player to 1
+>>>>>>> cc1d58b95c9befd7688295cba91f32f481c66aef
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
