@@ -28,7 +28,7 @@ logging:
       filename: nocheatplus.log
     ingamechat:
       active: true
-      prefix: '&cNCP: &f'
+      prefix: '&c»&4&l Guardian &c« &f'
       subscriptions: false
 data:
   expiration:
