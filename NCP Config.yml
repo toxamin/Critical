@@ -1,13 +1,7 @@
 # NCP Configuration
 # Made by rollermachine
 # For The Enchanted Network
-#  ##      #
-#  # #     #
-#  #  #    #
-#  #   #   #
-#  #    #  #
-#  #     # #
-#  #      ##
+
 savebackconfig: true
 configversion:
   notify: true
