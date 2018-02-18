@@ -7,3 +7,9 @@ command /acban [<player>]:
       add 1 to {bans}
       broadcast "&e--------------------%nl%%nl%&c%arg 1% &eHas Been Removed From The Network For &c[Guardian] &aUnfair Advantage%nl%%nl%&e--------------------"
       make console execute "/tempban %arg 1% 1day [Guardian] Unfair Advantage"
+
+
+command /stats:
+    executable by: players
+    trigger:
+        send "&cAnti Cheat Bans: &e{bans}"
