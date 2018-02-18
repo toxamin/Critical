@@ -1,0 +1,4 @@
+command /purchase:
+    executable by: console
+    trigger:
+        
