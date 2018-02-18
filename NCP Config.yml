@@ -96,14 +96,14 @@ checks:
     wrongblock:
       active: true
       level: 10
-      actions: cancel vl>10 log:bwrong:0:5:if cancel vl>30 log:bwrong:0:5:cif cancel cmd:kickwb
+      actions: vl>30 cmd:guardianban
   blockinteract:
     direction:
       active: true
-      actions: cancel vl>10 log:bdirection:0:3:if cancel
+      actions: vl>10 cmd:guardianban
     reach:
       active: true
-      actions: cancel vl>5 log:breach:0:2:if cancel
+      actions: vl>5 cmd:guardianban
     speed:
       active: true
       interval: 2000
