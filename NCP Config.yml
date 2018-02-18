@@ -78,7 +78,7 @@ checks:
       delay: 100
       intervalsurvival: 100
       grace: 2000
-      actions: vl>5 cmd:guardianban
+      actions: vl>10 cmd:guardianban
     frequency:
       active: true
       intervalcreative: 95
@@ -86,21 +86,21 @@ checks:
       shortterm:
         ticks: 5
         limit: 7
-      actions: vl>10 cmd:guardianban
+      actions: vl>15 cmd:guardianban
     noswing:
       active: true
       actions: vl>15 cmd:guardianban
     reach:
       active: true
-      actions: vl>5 cmd:guardianban
+      actions: vl>7 cmd:guardianban
     wrongblock:
       active: true
       level: 10
-      actions: vl>30 cmd:guardianban
+      actions: vl>50 cmd:guardianban
   blockinteract:
     direction:
       active: true
-      actions: vl>10 cmd:guardianban
+      actions: vl>25 cmd:guardianban
     reach:
       active: true
       actions: vl>5 cmd:guardianban
@@ -115,34 +115,34 @@ checks:
   blockplace:
     against:
       active: true
-      actions: cancel
+      actions:
     autosign:
       active: true
       skipempty: false
       actions: vl>10 cmd:guardianban
     direction:
       active: true
-      actions: vl>15 cmd:guardianban
+      actions: vl>25 cmd:guardianban
     fastplace:
       active: true
       limit: 22
       shortterm:
         ticks: 10
         limit: 6
-      actions: vl>100 cmd:guardianban
+      actions: vl>200 cmd:guardianban
     reach:
       active: true
-      actions: vl>5 cmd:guardianban
+      actions: vl>10 cmd:guardianban
     noswing:
       active: true
       exceptions:
       - WATER_LILY
       - FLINT_AND_STEEL
-      actions: vl>5 cmd:guardianban
+      actions: vl>10 cmd:guardianban
     speed:
       active: true
       interval: 45
-      actions: vl>150 cmd:guardianban
+      actions: vl>200 cmd:guardianban
     preventmisc:
       boatsanywhere: true
   chat:
@@ -242,14 +242,14 @@ checks:
   combined:
     bedleave:
       active: true
-      actions: vl>3 cmd:guardianban
+      actions: vl>10 cmd:guardianban
     enderpearl:
       active: true
       preventclickblock: true
     improbable:
       active: true
       level: 300
-      actions: vl>5 cmd:guardianban
+      actions: vl>10 cmd:guardianban
     invulnerable:
       active: true
       triggers:
@@ -281,7 +281,7 @@ checks:
     angle:
       active: true
       threshold: 50
-      actions: vl>50 cmd:guardianban
+      actions: vl>100 cmd:guardianban
     critical:
       active: true
       cancel:
@@ -321,7 +321,7 @@ checks:
     speed:
       active: true
       limit: 15
-      actions: vl>30 cmd:guardianban
+      actions: vl>60 cmd:guardianban
       shortterm:
         ticks: 7
         limit: 6
@@ -358,7 +358,7 @@ checks:
       actions: vl>3 cmd:guardianban
     gutenberg:
       active: true
-      actions: vl>5 cmd:guardianban
+      actions: vl>10 cmd:guardianban
     items:
       active: true
     open:
@@ -430,10 +430,10 @@ checks:
       resetonteleport: false
       resetonvehicle: true
       anticriticals: true
-      actions: vl>2 cmd:guardianban
+      actions: vl>10 cmd:guardianban
     passable:
       active: true
-      actions: vl>50 cmd:guardianban
+      actions: vl>100 cmd:guardianban
       untracked:
         teleport:
           active: true
@@ -489,7 +489,7 @@ checks:
       schedulesetbacks: default
       morepackets:
         active: true
-        actions: vl>10 cmd:guardianban
+        actions: vl>30 cmd:guardianban
       envelope:
         active: default
         actions: vl>100 cmd:guardianban
@@ -522,7 +522,7 @@ checks:
       active: default
       limitpersecond: 200
       seconds: 4
-      actions: vl>5 cmd:guardianban
+      actions: vl>10 cmd:guardianban
     sounddistance:
       active: true
       maxdistance: 320
