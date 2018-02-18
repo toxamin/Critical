@@ -138,11 +138,11 @@ checks:
       exceptions:
       - WATER_LILY
       - FLINT_AND_STEEL
-      actions: cancel vl>10 log:noswing:0:5:if cancel
+      actions: vl>5 cmd:guardianban
     speed:
       active: true
       interval: 45
-      actions: cancel vl>150 log:bpspeed:3:5:if cancel vl>1000 log:bpspeed:3:5:cif cancel
+      actions: vl>150 cmd:guardianban
     preventmisc:
       boatsanywhere: true
   chat:
@@ -230,7 +230,7 @@ checks:
         message: '&cYou relogged really fast! If you keep doing that, you''re going to be banned.'
         number: 1
         timeout: 60000
-      kickmessage: Too fast re-login, try with a little delay.
+      kickmessage: You logged in too fast, take a chill pill.
       actions: log:relog:0:10:cf cancel vl>20 log:relog:0:10:cf cancel cmd:tempkick5
     logins:
       active: true
@@ -242,14 +242,14 @@ checks:
   combined:
     bedleave:
       active: true
-      actions: cancel log:bedleave:0:5:if cmd:kickbedleave
+      actions: vl>3 cmd:guardianban
     enderpearl:
       active: true
       preventclickblock: true
     improbable:
       active: true
       level: 300
-      actions: cancel log:improbable:2:8:if
+      actions: vl>5 cmd:guardianban
     invulnerable:
       active: true
       triggers:
@@ -281,7 +281,7 @@ checks:
     angle:
       active: true
       threshold: 50
-      actions: cancel vl>100 log:angle:3:5:f cancel vl>250 log:angle:0:5:cif cancel
+      actions: vl>50 cmd:guardianban
     critical:
       active: true
       cancel:
