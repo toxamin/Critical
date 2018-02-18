@@ -530,14 +530,14 @@ checks:
       flying:
         cancelwaiting: true
 strings:
-  angle: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  angle: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   attackfrequency: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   ban: ban [player]
   ban-ip: ban-ip [ip]
-  bautosign: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  bbfrequency: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  bdirection: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  bedleave: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  bautosign: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  bbfrequency: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  bdirection: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  bedleave: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   bpspeed: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   breach: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   bspeed: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
@@ -575,7 +575,7 @@ strings:
   kickbedleave: ncp delay ncp kick [player] Go find a bed!
   kickbspeed: ncp kick [player] You interacted too fast!
   kickcaptcha: ncp kick [player] Enter the captcha!
-  kickchat1: ncp tempkick [player] 1 You're still not allowed to spam!
+  kickchat1: ncp tempkick [player] 1 You're still not allowed to spam!  
   kickchat5: ncp tempkick [player] 5 You're not intended to spam!
   kickchatfast: ncp kick [player] You're not allowed to spam in chat!
   kickchatnormal: ncp kick [player] Too many chat messages, take a break.
