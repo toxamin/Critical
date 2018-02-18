@@ -1,5 +1,9 @@
+variables:
+    {bans} = 0
+
 command /acban [<player>]:
    executable by: console
    trigger:
+      add 1 to {bans}
       broadcast "&e--------------------%nl%%nl%&c%arg 1% &eHas Been Removed From The Network For &c[Guardian] &aUnfair Advantage%nl%%nl%&e--------------------"
       make console execute "/tempban %arg 1% 1day [Guardian] Unfair Advantage"
