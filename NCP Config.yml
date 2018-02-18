@@ -86,7 +86,7 @@ checks:
       shortterm:
         ticks: 5
         limit: 7
-      actions: cancel vl>5 log:bbfrequency:3:5:if cancel vl>60 log:bbfrequency:0:5:cif cancel cmd:kickfrequency
+      actions: vl>10 cmd:guardianban
     noswing:
       active: true
       actions: cancel vl>10 log:noswing:0:5:if cancel
