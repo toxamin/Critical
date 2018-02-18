@@ -288,25 +288,25 @@ checks:
         cancel: 100
         dividedamage: 1.5
       falldistance: 0.06251
-      actions: cancel vl>50 log:critical:0:5:cif cancel
+      actions: vl>5 cmd:guardianban
     direction:
       active: true
       strict: false
       penalty: 500
-      actions: cancel vl>5 log:fdirection:3:5:f cancel vl>20 log:fdirection:0:5:if cancel vl>50 log:fdirection:0:5:cif cancel
+      actions: vl>10 cmd:guardianban
     fastheal:
       active: true
       interval: 4000
       buffer: 1000
-      actions: cancel vl>10 cancel log:fastheal:0:10:i vl>30 cancel log:fastheal:0:10:if
+      actions: vl>10 cmd:guardianban
     godmode:
       active: true
       minage: 1100
       maxage: 5000
-      actions: log:godmode:2:5:if cancel vl>60 log:godmode:2:5:icf cancel
+      actions: vl>50 cmd:guardianban
     noswing:
       active: true
-      actions: cancel vl>10 log:noswing:0:5:if cancel
+      actions: vl>10 cmd:guardianban
     reach:
       active: true
       survivaldistance: 4.4
@@ -314,10 +314,10 @@ checks:
       reduce: true
       reducedistance: 0.9
       reducestep: 0.15
-      actions: cancel vl>10 log:freach:2:5:if cancel
+      actions: vl>10 cmd:guardianban
     selfhit:
       active: true
-      actions: log:fselfhit:0:5:if cancel vl>10 log:fselfhit:0:5:icf cancel cmd:kickselfhit
+      actions: vl>5 cmd:guardianban
     speed:
       active: true
       limit: 15
