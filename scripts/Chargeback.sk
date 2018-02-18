@@ -1,0 +1,5 @@
+command /chargeback <player>:
+    executable by: console
+    trigger:
+        make console execute "/pex user %arg 1% group set default"
+        make console execute "/ban %arg 1% chargeback"
