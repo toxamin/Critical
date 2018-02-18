@@ -338,7 +338,7 @@ checks:
       limit:
         shortterm: 4
         normal: 15
-      actions: cancel vl>50 log:fastclick:3:5:cif cancel
+      actions: vl>50 cmd:guardianban
     instantbow:
       active: true
       strict: true
@@ -355,7 +355,7 @@ checks:
       duration: 0.7
       whitelist: false
       items: []
-      actions: log:fastconsume:2:5:if cancel
+      actions: vl>3 cmd:guardianban
     gutenberg:
       active: true
       actions: cancel log:gutenberg:0:10:icf cmd:kickinvaliddata
