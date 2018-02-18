@@ -1,4 +1,5 @@
 command /purchase <player> <text>:
     executable by: console
     trigger:
-        broadcast "&a&l%arg 1%&f&l Has Purchased &r%arg 2%"
+        broadcast "&a&l%arg 1%&f&l Has Purchased &6&l%arg 2%"
+        make console execute "/pex user %arg 1% group add %arg 2%"
