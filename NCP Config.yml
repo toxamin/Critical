@@ -530,7 +530,7 @@ checks:
       flying:
         cancelwaiting: true
 strings:
-  angle: '[player] failed [check]: tried to hit multiple entities at the same time. VL [violations].'
+  angle: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   attackfrequency: '[player] failed [check]: attacks with too high a frequency ([packets]/[limit], [tags]). VL [violations].'
   ban: ban [player]
   ban-ip: ban-ip [ip]
