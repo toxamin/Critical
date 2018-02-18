@@ -71,14 +71,14 @@ checks:
   blockbreak:
     direction:
       active: true
-      actions: cancel vl>10 log:bdirection:0:3:if cancel
+      actions: vl>20 cmd:guardianban
     fastbreak:
       active: true
       strict: true
       delay: 100
       intervalsurvival: 100
       grace: 2000
-      actions: cancel vl>0 log:fastbreak:3:5:cif cancel
+      actions: vl>5 cmd:guardianban
     frequency:
       active: true
       intervalcreative: 95
@@ -486,7 +486,7 @@ checks:
     vehicle:
       preventdestroyown: true
       enforcelocation: default
-      schedulesetbacks: default 
+      schedulesetbacks: default
       morepackets:
         active: true
         actions: cancel vl>10 log:morepackets:0:2:if cancel
@@ -576,7 +576,7 @@ strings:
   kickbedleave: ncp delay ncp kick [player] Go find a bed!
   kickbspeed: ncp kick [player] You interacted too fast!
   kickcaptcha: ncp kick [player] Enter the captcha!
-  kickchat1: ncp tempkick [player] 1 You're still not allowed to spam!  
+  kickchat1: ncp tempkick [player] 1 You're still not allowed to spam!
   kickchat5: ncp tempkick [player] 5 You're not intended to spam!
   kickchatfast: ncp kick [player] You're not allowed to spam in chat!
   kickchatnormal: ncp kick [player] Too many chat messages, take a break.
