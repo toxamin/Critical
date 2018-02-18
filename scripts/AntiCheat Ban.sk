@@ -1,9 +1,9 @@
 command /acban [<player>]:
-    executable by: console
-    trigger:
-        loop all players:
-            if loop-player has permission "staff":
-                send "&c»&4&l Guardian &c« &e%arg 1% &aWill Be Suspended From The Network In 10 Seconds"
-        wait 10 seconds
-        broadcast "&e--------------------%nl%%nl%&c%arg 1% &eHas Been Removed From The Network For &c[Guardian] &aUnfair Advantage%nl%%nl%&e--------------------"
-        make console execute "/ban %arg 1% [Guardian] Unfair Advantage"
+   executable by: console
+   trigger:
+       loop all players:
+           if loop-player has permission "staff":
+               send "&c»&4&l Guardian &c« &e%arg 1% &aWill Be Suspended From The Network In 10 Seconds"
+       wait 10 seconds
+       broadcast "&e--------------------%nl%%nl%&c%arg 1% &eHas Been Removed From The Network For &c[Guardian] &aUnfair Advantage%nl%%nl%&e--------------------"
+       make console execute "/tempban %arg 1% 1day [Guardian] Unfair Advantage"
