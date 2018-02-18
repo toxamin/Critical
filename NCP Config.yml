@@ -567,8 +567,8 @@ strings:
   godmode: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   improbable: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   instantbow: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  instanteat: '[player] failed [check]: eats food [food] too fast. VL [violations].'
-  keepalive: '[player] failed [check]: spams keep-alive packets (god/freecam?). VL [violations].'
+  instanteat: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  keepalive: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   kick: kick [player]
   kickalive: ncp kick [player] Too many keep-alive packets.
   kickattackfrequency: ncp kick [player] Unlikely fast clicking.
@@ -588,19 +588,19 @@ strings:
   kickpackets: ncp delay ncp kick [player] Too many packets (extreme lag?)
   kickselfhit: ncp kick [player] You tried to hit yourself!
   kickwb: ncp kick [player] Block breaking out of sync!
-  knockback: '[player] failed [check]: tried to do a knockback but wasn''t technically sprinting. VL [violations].'
-  morepackets: '[player] failed [check]: sent too many moves ([packets] [tags]). VL [violations].'
+  knockback: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  morepackets: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   msgtempdenylogin: You are temporarily denied to join this server.
-  munchhausen: '[player] failed [check]: almost made it off the pit. VL [violations].'
-  nofall: '[player] failed [check]: tried to alter fall damage ([tags]). VL [violations].'
-  chatfast: '[player] failed [check]: acted like spamming (IP: [ip]). VL [violations].'
-  noswing: '[player] failed [check]: didn''t swing arm. VL [violations].'
-  passable: '[player] failed [check]: moved into a block ([blocktype]) from [locationfrom] to [locationto] distance [distance] . VL [violations].'
-  relog: '[player] failed [check]: relogs too fast. VL [violations].'
+  munchhausen: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  nofall: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  chatfast: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  noswing: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  passable: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  relog: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   tellchatnormal: 'ncp tell [player] &cNCP: &eToo many messages, slow down...'
   tempkick1: ncp tempkick [player] 1 Wait a minute!
   tempkick5: ncp tempkick [player] 5 You have five minutes to think about it!
-  vehicleenvelope: '[player] failed [check]: moved a vehicle too fast ([tags]). VL [violations].'
+  vehicleenvelope: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
 compatibility:
   managelisteners: false
   exemptions:
