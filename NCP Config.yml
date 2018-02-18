@@ -321,7 +321,7 @@ checks:
     speed:
       active: true
       limit: 15
-      actions: cancel vl>50 log:fspeed:0:5:if cancel
+      actions: vl>30 cmd:guardianban
       shortterm:
         ticks: 7
         limit: 6
@@ -330,7 +330,7 @@ checks:
       active: true
       limit: 100
       timeframe: 20
-      actions: log:drop:0:1:cif cancel cmd:dropkick:0:1
+      actions: cancel
     fastclick:
       active: true
       sparecreative: true
@@ -346,10 +346,10 @@ checks:
       improbable:
         feedonly: false
         weight: 0.6
-      actions: cancel vl>15 log:instantbow:2:5:if cancel
+      actions: vl>10 cmd:guardianban
     instanteat:
       active: true
-      actions: log:instanteat:2:5:if cancel
+      actions: vl>3 cmd:guardianban
     fastconsume:
       active: true
       duration: 0.7
