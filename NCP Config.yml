@@ -546,9 +546,9 @@ strings:
   captcha: ' &c[player] &7failed captcha repeatedly &8(&c[violations]VL&8)'
   chatnormal: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   color: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  commands: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  combspeed: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  critical: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  commands: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  combspeed: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  critical: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   drop: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   dropkick: ncp delay ncp kick [player] Dropping items too fast.
   fastbreak: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
