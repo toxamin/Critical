@@ -486,7 +486,7 @@ checks:
     vehicle:
       preventdestroyown: true
       enforcelocation: default
-      schedulesetbacks: default
+      schedulesetbacks: default 
       morepackets:
         active: true
         actions: cancel vl>10 log:morepackets:0:2:if cancel
@@ -505,7 +505,7 @@ checks:
         two: 30
         four: 60
         eight: 100
-      actions: cancel vl>30 cancel log:attackfrequency:0:5:if vl>160 cancel log:attackfrequency:0:0:cif cmd:kickattackfrequency
+      actions: vl>25 cmd:guardianban
     flyingfrequency:
       active: true
       seconds: 5
@@ -569,7 +569,7 @@ strings:
   instantbow: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   instanteat: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   keepalive: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  guardianban: tempban [player] 1day Guardian Unfair Advantage
+  guardianban: tempban [player] 1day [Guardian] Unfair Advantage
   kick: kick [player]
   kickalive: ncp kick [player] Too many keep-alive packets.
   kickattackfrequency: ncp kick [player] Unlikely fast clicking.
