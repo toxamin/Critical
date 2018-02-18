@@ -531,7 +531,7 @@ checks:
         cancelwaiting: true
 strings:
   angle: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  attackfrequency: '[player] failed [check]: attacks with too high a frequency ([packets]/[limit], [tags]). VL [violations].'
+  attackfrequency: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   ban: ban [player]
   ban-ip: ban-ip [ip]
   bautosign: '[player] failed [check]: failed autosign with [tags]. VL [violations].'
