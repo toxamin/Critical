@@ -108,7 +108,7 @@ checks:
       active: true
       interval: 2000
       limit: 60
-      actions: cancel vl>200 log:bspeed:0:2:if cancel vl>1000 cancel log:bspeed:0:2:icf cmd:kickbspeed
+      actions: vl>1500 cmd:guardianban
     visible:
       active: true
       actions: cancel vl>100 log:bvisible:0:10:if cancel
