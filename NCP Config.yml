@@ -421,7 +421,7 @@ checks:
         directviolation: 60
         epmviolation: 180
       setbackage: 40
-      actions: vl>100 cmd:guardianban
+      actions: vl>200 cmd:guardianban
     nofall:
       active: true
       dealdamage: true
@@ -433,7 +433,7 @@ checks:
       actions: vl>10 cmd:guardianban
     passable:
       active: true
-      actions: vl>100 cmd:guardianban
+      actions: vl>150 cmd:guardianban
       untracked:
         teleport:
           active: true
