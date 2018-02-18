@@ -122,17 +122,17 @@ checks:
       actions: vl>10 cmd:guardianban
     direction:
       active: true
-      actions: cancel vl>10 log:bdirection:0:3:if cancel
+      actions: vl>15 cmd:guardianban
     fastplace:
       active: true
       limit: 22
       shortterm:
         ticks: 10
         limit: 6
-      actions: cancel vl>100 log:fastplace:3:5:cif cancel
+      actions: vl>100 cmd:guardianban
     reach:
       active: true
-      actions: cancel vl>5 log:breach:0:2:if cancel
+      actions: vl>5 cmd:guardianban
     noswing:
       active: true
       exceptions:
