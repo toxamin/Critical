@@ -569,7 +569,7 @@ strings:
   instantbow: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   instanteat: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   keepalive: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  guardianban: tempban [player] 1day [Guardian] Unfair Advantage
+  guardianban: acban [player]
   kick: kick [player]
   kickalive: ncp kick [player] Too many keep-alive packets.
   kickattackfrequency: ncp kick [player] Unlikely fast clicking.
