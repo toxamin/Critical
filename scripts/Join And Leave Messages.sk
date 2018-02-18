@@ -10,20 +10,4 @@ on disconnect:
     broadcast "&8[&a-&8] &b%player%"
 
 on first join:
-    add 1 to {_playercounter}
-    broadcast "&8[&aNEW&8] &b%player%
-
-command /adminplayercounter [<number>]:
-  permission: admin.playercounter
-  permission message: &cYou don't have permission
-  trigger:
-    if arg 1 is not set:
-      send "&cSupply an amount"
-      add arg 1 to {_playercounter}
-      stop
-
-command /resetplayercounter:
-  permission: admin.playercounter
-  permission message: &cYou don't have permission
-  trigger:
-    set {_playercounter} to "00000"
+    broadcast "&8[&aNEW&8] &b%player%"
