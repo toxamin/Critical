@@ -2,3 +2,4 @@ command /acban [<player>]:
     executable by: console
     trigger:
         broadcast "&cGuardian &ehas Suspended &c%arg 1% &eFor &6Unfair Advantage"
+        make console execute "/ban %arg 1% [Guardian] Unfair Advantage"
