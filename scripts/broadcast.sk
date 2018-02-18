@@ -5,4 +5,4 @@ command broadcast [<text>]:
         if arg 1 is not set:
             message "&cYou must enter a message"
         if arg 1 is set:
-            broadcast "&6&lCritical &c"
+            broadcast "&6&lCritical &c» &r"
