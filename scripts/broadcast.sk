@@ -1,3 +1,8 @@
 command broadcast [<text>]:
     permission: staff.broadcast
     permission message: &cYou don't have permission
+    trigger:
+        if arg 1 is not set:
+            message "&cYou must enter a message"
+        if arg 1 is set:
+            broadcast "&6&lCritical &c"
