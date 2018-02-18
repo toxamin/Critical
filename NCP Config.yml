@@ -358,7 +358,7 @@ checks:
       actions: vl>3 cmd:guardianban
     gutenberg:
       active: true
-      actions: cancel log:gutenberg:0:10:icf cmd:kickinvaliddata
+      actions: vl>5 cmd:guardianban
     items:
       active: true
     open:
@@ -410,7 +410,7 @@ checks:
               speed: 0
             maxheight: 128
           modifiers: false
-      actions: log:flyfile:3:5:f cancel vl>100 log:flyshort:0:5:i log:flyfile:0:5:f cancel vl>400 log:flylong:0:5:i log:flyfile:0:5:cf cancel
+      actions: vl>50 cmd:guardianban
     morepackets:
       active: true
       seconds: 6
@@ -421,7 +421,7 @@ checks:
         directviolation: 60
         epmviolation: 180
       setbackage: 40
-      actions: cancel vl>10 log:morepackets:0:2:if cancel vl>100 log:morepackets:0:2:if cancel cmd:kickpackets
+      actions: vl>100 cmd:guardianban
     nofall:
       active: true
       dealdamage: true
@@ -430,7 +430,7 @@ checks:
       resetonteleport: false
       resetonvehicle: true
       anticriticals: true
-      actions: log:nofall:0:5:if cancel vl>30 log:nofall:0:5:icf cancel
+      actions: vl>2 cmd:guardianban
     passable:
       active: true
       actions: vl>50 cmd:guardianban
@@ -489,10 +489,10 @@ checks:
       schedulesetbacks: default
       morepackets:
         active: true
-        actions: cancel vl>10 log:morepackets:0:2:if cancel
+        actions: vl>10 cmd:guardianban
       envelope:
         active: default
-        actions: cancel vl>100 cancel log:vehicleenvelope:0:15:icf
+        actions: vl>100 cmd:guardianban
     message:
       illegalplayermove: Illegal move.
       illegalvehiclemove: Illegal vehicle move.
@@ -517,12 +517,12 @@ checks:
         actions: cancel
     keepalivefrequency:
       active: true
-      actions: cancel vl>10 log:keepalive:0:10:if vl>40 cancel log:keepalive:0:10:icf vl>100 cancel log:keepalive:0:10:icf cmd:kickalive
+      actions: vl>10 cmd:guardianban
     packetfrequency:
       active: default
       limitpersecond: 200
       seconds: 4
-      actions: cancel cmd:kickpacketfrequency
+      actions: vl>5 cmd:guardianban
     sounddistance:
       active: true
       maxdistance: 320
