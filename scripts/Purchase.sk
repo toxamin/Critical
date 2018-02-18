@@ -1,4 +1,4 @@
-command /purchase <text> [<player>]:
+command /purchase <player> <text>:
     executable by: console
     trigger:
-        broadcast "&a&l%arg 2%&f&l Has Purchased &r%arg 1%"
+        broadcast "&a&l%arg 1%&f&l Has Purchased &r%arg 2%"
