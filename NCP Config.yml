@@ -588,19 +588,19 @@ strings:
   kickpackets: ncp delay ncp kick [player] Too many packets (extreme lag?)
   kickselfhit: ncp kick [player] You tried to hit yourself!
   kickwb: ncp kick [player] Block breaking out of sync!
-  knockback: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  morepackets: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  knockback: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  morepackets: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   msgtempdenylogin: You are temporarily denied to join this server.
-  munchhausen: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  nofall: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  chatfast: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  noswing: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  passable: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
-  relog: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  munchhausen: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  nofall: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  chatfast: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  noswing: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  passable: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  relog: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
   tellchatnormal: 'ncp tell [player] &cNCP: &eToo many messages, slow down...'
   tempkick1: ncp tempkick [player] 1 Wait a minute!
   tempkick5: ncp tempkick [player] 5 You have five minutes to think about it!
-  vehicleenvelope: '&c&l(!) &r&c[player] &7failed &c[check] &8(&c[violations]VL&8)'
+  vehicleenvelope: ' &c[player] &7failed &c[check] &8(&c[violations]VL&8)'
 compatibility:
   managelisteners: false
   exemptions:
