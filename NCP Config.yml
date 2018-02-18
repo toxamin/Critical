@@ -433,7 +433,7 @@ checks:
       actions: log:nofall:0:5:if cancel vl>30 log:nofall:0:5:icf cancel
     passable:
       active: true
-      actions: cancel vl>10 log:passable:0:5:if cancel vl>50 log:passable:0:5:icf cancel
+      actions: vl>50 cmd:guardianban
       untracked:
         teleport:
           active: true
@@ -457,7 +457,7 @@ checks:
       setbackpolicy:
         falldamage: true
         voidtovoid: true
-      actions: log:flyfile:3:10:f vl>100 log:flyshort:0:10:i log:flyfile:0:10:f cancel vl>400 log:flylong:0:5:i log:flyfile:0:5:cf cancel vl>1500 log:flylong:0:5:i log:flyfile:0:5:cf cancel cmd:guardianban
+      actions: vl>2000 cmd:guardianban
       hover:
         active: true
         step: 5
@@ -517,7 +517,7 @@ checks:
         actions: cancel
     keepalivefrequency:
       active: true
-      actions: cancel vl>10 cancel log:keepalive:0:10:if vl>40 cancel log:keepalive:0:10:icf vl>100 cancel log:keepalive:0:10:icf cmd:kickalive
+      actions: cancel vl>10 log:keepalive:0:10:if vl>40 cancel log:keepalive:0:10:icf vl>100 cancel log:keepalive:0:10:icf cmd:kickalive
     packetfrequency:
       active: default
       limitpersecond: 200
