@@ -1,3 +1,3 @@
-command broadcast:
+command broadcast [<text>]:
     permission: staff.broadcast
     permission message: &cYou don't have permission
