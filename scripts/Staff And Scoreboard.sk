@@ -166,7 +166,7 @@ on damage:
 		if victim is in world "Main-Hub-1":
 				if damage cause is void:
 						cancel event
-						make console execute "/tp %victim% 1047 118 -596"
+						make console execute "/warp SkyWars %victim%"
 
 
 
