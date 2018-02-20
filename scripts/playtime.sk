@@ -21,8 +21,7 @@ every second:
 			subtract 60 from {minute::%loop-player%}
 			add 1 to {hour::%loop-player%}
 
-command /{@command} [<offline player>]:
-	permission: {@permission}
+command /{@command} [<player>]:
 	trigger:
 		if arg 1 is not set:
 			send "{@prefix} &7Your play time is %{hour::%player%}% hours %{minute::%player%}% minutes"
