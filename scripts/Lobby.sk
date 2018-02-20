@@ -34,3 +34,9 @@ on join:
 on walking on barrier:
   if player is in world "Main-Hub-1":
     make console execute "/warp SkyWars %player%"
+
+on portal:
+  cancel event
+
+on portal create:
+  cancel event
