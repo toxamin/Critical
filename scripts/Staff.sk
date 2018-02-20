@@ -156,10 +156,3 @@ command /staff:
 		format slot 43 of player with {@MainGlassColour} named "&a" to be unstealable
 		wait 1 tick
 		format slot 44 of player with {@MainGlassColour} named "&a" to be unstealable
-
-
-on damage:
-		if victim is in world "Main-Hub-1":
-				if damage cause is void:
-						cancel event
-						make console execute "/warp SkyWars %victim%"
