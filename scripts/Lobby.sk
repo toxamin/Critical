@@ -30,3 +30,7 @@ on join:
   make console execute "/ci %player%"
   make console execute "/menu grab %player% gamemodecompass"
   stop
+
+on walking on barrier:
+  if victim is in world "Main-Hub-1":
+    make console execute "/warp SkyWars %player%"
