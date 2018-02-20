@@ -40,3 +40,8 @@ on portal:
 
 on portal create:
   cancel event
+
+every 30 minutes:
+  broadcast "&c[Backup] We apologise for any lag whilst we back up or servers."
+  make console execute "/save-all"
+  broadcast "&cWe have successfully backed up our servers."
