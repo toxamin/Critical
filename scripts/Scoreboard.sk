@@ -124,3 +124,20 @@ every 7 seconds:
         set score "&e&lKills: &2&l{stats.%player%.kills}" in sidebar of loop-player to 7
         set score "" in sidebar of loop-player to 6
         set score "&e&lKills: &2&l{stats.%player%.kills}" in sidebar of loop-player to 5
+
+variables:
+    {bans} = 0
+
+command /acban [<player>]:
+   executable by: console
+   trigger:
+      add 1 to {bans}
+      broadcast "&e--------------------%nl%%nl%&c%arg 1% &eHas Been Removed From The Network For &c[Guardian] &aUnfair Advantage%nl%%nl%&e--------------------"
+      make console execute "/tempban %arg 1% 1day [Guardian] Unfair Advantage"
+      make console execute "/hologram setline GuardianStats 1 &cGuardian &eCurrently Has &e%{bans}% &eBans!"
+
+
+command /stats:
+    executable by: players
+    trigger:
+        send "&cAnti Cheat Bans: &e%{bans}%"
