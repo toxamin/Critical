@@ -1,5 +1,5 @@
 command /clearchat:
-    permission: chat.clearchat
+    permission: staff.clearchat
     permission message: &cYou don't have permission
     usage: &c/clearchat
     trigger:
@@ -8,7 +8,7 @@ command /clearchat:
         broadcast "&aChat has been cleared by &b&l%player%"
 
 command /cc:
-    permission: chat.clearchat
+    permission: staff.clearchat
     permission message: &cYou don't have permission
     usage: &c/cc
     trigger:
