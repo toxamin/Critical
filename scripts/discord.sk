@@ -1,4 +1,4 @@
 command /discord:
     usage: &c/discord
     trigger:
-        send "&cFind our discord at: &adiscord.me/theenchantednetwork"
+        send "&c&lJoin our discord by clicking <link:http://discord.me/theenchantednetwork>&a&lHERE<reset>"
