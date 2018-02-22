@@ -2,66 +2,67 @@ every 7 seconds:
     loop all players:
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&b&lCritical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 1 second
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCritical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 1 second
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&b&lCritical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 1 second
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCritical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 1 seconds
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&b&lC&2&lritical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lC&b&lr&2&litical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCr&b&li&2&ltical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCri&b&lt&2&lical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCrit&b&li&2&lcal"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCrit&b&li&2&lcal"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCritic&b&la&2&ll"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCritica&b&ll"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
+        wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&b&lCritical"
-        set score "" in sidebar of loop-player to 2
+        set score "" in sidebar of loop-player to 10
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
 
 on death of player:
