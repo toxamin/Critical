@@ -1,4 +1,4 @@
-every 2 seconds:
+every 10 seconds:
     loop all players:
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&b&lCritical"
