@@ -63,3 +63,7 @@ every 15 seconds:
         set name of sidebar of loop-player to "&b&lCritical"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
+
+on death of player:
+    add 1 to {stats.%attacker%.kills}
+    add 1 to {stats.%victim%.deaths}
