@@ -24,37 +24,37 @@ every 15 seconds:
         set name of sidebar of loop-player to "&b&lC&2&lritical"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
-        wait 1 second
+        wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lC&b&lr&2&litical"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
-        wait 1 second
+        wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCr&b&li&2&ltical"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
-        wait 1 second
+        wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCri&b&lt&2&lical"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
-        wait 1 second
+        wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCrit&b&li&2&lcal"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
-        wait 1 second
+        wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCrit&b&li&2&lcal"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
-        wait 1 second
+        wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCritic&b&la&2&ll"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
-        wait 1 second
+        wait 10 ticks
         wipe loop-player's sidebar
         set name of sidebar of loop-player to "&2&lCritica&b&ll"
         set score "&e&lGamemode: &2&lSkyWars" in sidebar of loop-player to 1
